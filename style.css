@@ -1,3 +1,25 @@
 body {
     background: linear-gradient(to right, white, yellow);
 }
+
+.author-photo img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.game-info {
+    display: flex;
+    align-items: center; /* Вирівнювання елементів по вертикалі */
+}
+
+.author-photo {
+    margin-right: 50px; /* Відступ між фотографією і рештою контенту */
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons a {
+    margin-right: 50px; /* Відступ між кнопками */
+}
