@@ -1,1 +1,1 @@
-console.log('аахаххахаха')
+console.log('GameMarket')

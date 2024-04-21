@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,44 +7,39 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-
 <body>
     <header>
         <h1>Маркетплейс ігор 10-А/2</h1>
-        <!-- Додайте інші елементи верхньої частини, наприклад, навігаційні посилання -->
+        <!-- Меню, логотип та інші навігаційні посилання -->
     </header>
-    <main>
-        <!-- Перший блок для першої гри -->
-        <div class="game-info">
-            <!-- Фотографія автора -->
+    <main class="games-grid">
+        <!-- Блок для гри -->
+        <div class="game-card">
+            <h2 class="game-title">Пригоди козака</h2>
             <div class="author-photo">
-                <img src="img/Мединський.jpg" Фото автора">
+                <img src="img/Мединський.jpg" alt="Фото автора">
             </div>
-            <!-- Блок з інформацією про гру -->
-            <div class="game-details">
-                <h2>Пригоди козака</h2>
-                <!-- Кнопки-картинки -->
-                <div class="buttons">
-                    <a href="#"><img src="button1.jpg" alt="Кнопка 1"></a>
-                    <a href="#"><img src="button2.jpg" alt="Кнопка 2"></a>
-                    <a href="#"><img src="button3.jpg" alt="Кнопка 3"></a>
-                    <a href="#"><img src="button4.jpg" alt="Кнопка 4"></a>
-                </div>
-                <!-- Фотографії з геймплеєм -->
-                <div class="gameplay-photos">
-                    <img src="gameplay1.jpg" alt="Геймплей 1">
-                    <img src="gameplay2.jpg" alt="Геймплей 2">
-                </div>
+            <div class="links">
+                <a href="https://github.com/MedynskyiRoman/Phaser2ndGame" target="_blank">
+                    <img src="img/GitHub.png" alt="GitHub">
+                </a>
+                <a href="https://medynskyiroman.github.io/Phaser2ndGame/" target="_blank">
+                    <img src="img/github-pages.png" alt="GitHub Pages">
+                </a>
+                <a href="https://drive.google.com/drive/folders/1ujjej9ifF-2xqLKIc5X2vpohSn6ZenZ4?usp=sharing" target="_blank">
+                    <img src="img/disk.png" alt="Google Drive">
+                </a>
+                <a href="https://forms.gle/MzKxFco9L798EjKi8?authuser=1" target="_blank">
+                    <img src="img/forms.png" alt="Google Forms">
+                </a>
             </div>
+            <p class="author-name">Автор: Мединський Роман</p>
         </div>
-        
+        <!-- Інші блоки для інших ігор за тим же шаблоном -->
     </main>
-    
     <footer>
-        <p>&copy; 2024 GameMarket_Medynskyi. Усі права захищено.</p>
-        <!-- Додайте інші елементи нижньої частини, наприклад, контактна інформація -->
+        <p>GameMarket_Medynskyi</p>
+        <!-- Контактна інформація та додаткові посилання -->
     </footer>
 </body>
-
-
 </html>

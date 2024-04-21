@@ -1,25 +1,71 @@
-body {
-    background: linear-gradient(to right, white, yellow);
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main.games-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.game-card {
+    flex: 1 1 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.game-title {
+    margin-top: 0;
+    color: #333;
 }
 
 .author-photo img {
-    max-width: 25%;
-    max-height: 25%;
+    width: 150px; 
+    height: auto;
+    margin-bottom: 20px;
 }
 
-.game-info {
+.links {
     display: flex;
-    align-items: center; /* Вирівнювання елементів по вертикалі */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%; 
 }
 
-.author-photo {
-    margin-right: 50px; /* Відступ між фотографією і рештою контенту */
+.links a {
+    display: block;
 }
 
-.buttons {
-    display: flex;
+.links img {
+    width: 50px; 
+    height: auto;
 }
 
-.buttons a {
-    margin-right: 50px; /* Відступ між кнопками */
+.author-name {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
 }
