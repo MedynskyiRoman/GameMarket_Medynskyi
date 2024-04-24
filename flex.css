@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex;
+    height: 100vh;
+    gap: 10px;
+
+}
+
+div{
+    border: 2px solid red;
+}
