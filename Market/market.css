@@ -1,18 +1,21 @@
-body, html {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 460px;
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-header, footer {
+header,
+footer {
   text-align: center;
   color: #333;
   padding: 10px 0;
@@ -22,14 +25,16 @@ header, footer {
 .products {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px 0;
 }
 
 .product {
-  width: 45%;
-  margin: 10px;
+  width: 48%;
+  margin-bottom: 10px;
+  border-radius: 25px;
   text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .product img {
